@@ -30,6 +30,7 @@ jsproxy_config({
       lines: [
         // 实验中...
         // 参考 https://github.com/EtherDream/jsproxy/tree/master/cf-worker
+        'jsproxy.66.workers.dev:443',
         'node-cfworker.etherdream.com:8443'
       ]
     }
@@ -38,7 +39,7 @@ jsproxy_config({
   /**
    * 默认节点  
    */
-  node_default: 'aliyun-hk',
+  node_default: 'cfworker',
 
   /**
    * 加速节点
